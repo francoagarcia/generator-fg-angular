@@ -66,7 +66,7 @@ echo "export PHANTOMJS_BIN=$NODE_REPO/lib/node_modules/phantomjs/bin/phantomjs" 
 
 ## Use the commands and follow the promts
 
-### Create a project 
+### Create Project 
 ```
 yo fg-angular
 ```
