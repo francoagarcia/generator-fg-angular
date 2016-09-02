@@ -7,13 +7,14 @@ This generator is based on:
 ------------------------------------------------------------------------------------------------------------
 
 ## Prerequisites
-1. Install NodeJS y NPM
+### Install NodeJS y NPM
 ```	
 sudo apt-get update
 sudo apt-get install nodejs
 sudo apt-get install npm
 ```
-2. Execute npm as not root 
+
+### Execute npm as not root 
 ```
 mkdir ~/.npm_repository
 npm config set prefix ~/.npm_repository
@@ -22,23 +23,25 @@ echo "export PATH=$PATH:$NODE_REPO/bin" >> ~/.bashrc
 echo "export NODE_PATH=$NODE_PATH:$NODE_REPO/lib/node_modules" >> ~/.bashrc
 sudo chown -R $USER:`id -g -n $USER` ~/.npm
 ```
-3. Check NodeJS and NPM versions
-3.1. Node version >= v6.2.2.
+
+### Check NodeJS and NPM versions
+#### Node version >= v6.2.2.
 ```
 node --version 
 ```
-3.2. NPM vesion >= 3.9.5
+#### NPM vesion >= 3.9.5
 ```
 npm --version
 ```
-3.3. if they have an older version, you have to do:
+#### if they have an older version, you have to do:
 ```
 npm cache clean -f
 npm install -g n
 n stable
 npm install -g npm
 ```
-4. Install packages
+
+### Install packages
 ```
 npm install -g bower yo grunt grunt-cli gulp 
 npm install -g ng-annotate ejs ember-cli phantomjs jshint less
