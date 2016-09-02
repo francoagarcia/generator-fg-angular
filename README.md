@@ -1,8 +1,6 @@
 # Yeoman Generator for AngularJS projects
-## Arquitecture
-This generator is based on:
 
-[Angular 1 Style Guide](//github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
+This generator is based on [Angular 1 Style Guide](//github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -51,7 +49,7 @@ npm install -g ng-annotate ejs ember-cli phantomjs jshint less
 
 ## Download && Install the Generator
 
-1. Download the repo and linked with npm
+### Download the repo and linked with npm
 ```
 cd ~
 git clone https://github.com/francoagarcia/generator-fg-angular.git
@@ -59,7 +57,7 @@ cd generator-fg-angular
 npm install
 npm link
 ```
-2. Set environment variable for PhantomJS test
+### Set environment variable for PhantomJS test
 ```
 echo "export PHANTOMJS_BIN=$NODE_REPO/lib/node_modules/phantomjs/bin/phantomjs" >> ~/.bashrc
 ```
@@ -73,37 +71,37 @@ echo "export PHANTOMJS_BIN=$NODE_REPO/lib/node_modules/phantomjs/bin/phantomjs" 
 yo fg-angular
 ```
 
-## Create Modules
+### Create Modules
 ```
 yo fg-angular:module moduleName
 ```
 
-## Create Partials
+### Create Partials
 ```
 yo fg-angular:partial partialName
 ```
 
-## Create Directives
+### Create Directives
 ```
 yo fg-angular:directive directiveName
 ```
 
-## Create Domain Objects
+### Create Domain Objects
 ```
 yo fg-angular:domain domainName
 ```
 
-## Create Services
+### Create Services
 ```
 yo fg-angular:service serviceName
 ```
 
-## Create  Filters
+### Create  Filters
 ```
 yo fg-angular:filter filterName
 ```
 
-## Create Modals
+### Create Modals
 ```
 yo fg-angular:modal modalName
 ```
