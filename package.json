@@ -1,0 +1,48 @@
+{
+	"author": {
+		"email": "francoagarcia@gmail.com",
+		"name": "Franco Garcia",
+		"url": "https://github.com/francoagarcia"
+	},
+	"version": "1.0.0",
+	"description": "Yeoman Generator for Enterprise Angular projects.",
+	"homepage": "https://github.com/francoagarcia/generator-fg-angular",
+	"main": "app/index.js",
+	"name": "generator-fg-angular",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/francoagarcia/generator-fg-angular.git"
+	},
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"license" : "MIT",
+	"dependencies": {
+		"chalk": "~0.4.0",
+		"ng-parse-module": "~0.1.0",
+		"underscore": "~1.5",
+		"underscore.string": "~2.3",
+		"yeoman-generator": "~0.16"
+	},
+	"devDependencies": {
+		"mocha": "~1.10.0"
+	},
+	"engines": {
+		"node": ">0.8.0"
+	},
+	"keywords": [
+		"yeoman-generator",
+		"angular"
+	],
+	"maintainers": [
+		{
+			"email": "francoagarcia@gmail.com",
+			"name": "francoagarcia"
+		}
+	],
+	"scripts": {
+		"test": "mocha"
+	}
+}
